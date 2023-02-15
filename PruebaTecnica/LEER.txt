@@ -1,0 +1,25 @@
+El proyecto se realizó en .Net Core versión 6.
+A el API para la seguridad se le implemento un Middleware que inicialmente esta desahilitado para que se puedan realizar 
+las pruendas facilmente a los endpoints desde la interfaz de Swagger que se ejecuta al compilar el proyecto. 
+Para habilitar el Middleware se debe descomentar la linea 34 del archivo Program.cs
+
+ApiKey para el encabezado
+ 
+ApiKey = "ApiKey_PruebaTecnica_2023**!"
+
+Listado de EndPoints 
+Contenedor
+https://localhost:7260/api/Contenedor/GetContenedores
+https://localhost:7260/api/Contenedor/GetContenedoresXNaviera
+https://localhost:7260/api/Contenedor/GetTotalContenedoresXNaviera
+https://localhost:7260/api/Contenedor/AddContenedor
+
+Naviera
+https://localhost:7260/api/Naviera/GetNaviera
+https://localhost:7260/api/Naviera/AddNaviera
+
+Terminal
+https://localhost:7260/api/terminal/GetTerminales
+https://localhost:7260/api/terminal/AddTerminal
+
+
